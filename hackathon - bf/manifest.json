@@ -1,0 +1,38 @@
+{
+    "$schema": "https://statics.teams.microsoft.com/sdk/v1.0/manifest/MicrosoftTeams.schema.json", 
+    "manifestVersion": "1.0",
+    "version": "1.0.0",
+    "id": "ffbacdff-e1cf-49f1-9fd8-d78e6f4dfe66",
+    "packageName": "com.timlaqua.hackathon123",
+    "developer": {
+        "name": "tim laqua",
+        "websiteUrl": "http://timlaqua.com/",
+        "privacyUrl": "http://timlaqua.com/",
+        "termsOfUseUrl": "http://timlaqua.com/"
+    },
+    "name": {
+        "short": "Delete Me"
+    },
+    "description": {
+        "short": "test bot, delete me",
+        "full": "test bot, delete me"
+    },
+    "icons": {
+        "outline": "contoso20x20.png",
+        "color": "hackathon.png"
+    },
+    "accentColor": "#60A18E",
+    "bots": [
+        {
+            "botId": "ffbacdff-e1cf-49f1-9fd8-d78e6f4dfe66",
+            "scopes": [
+                "team",
+                "personal"
+            ]
+        }
+    ],
+    "permissions": [
+        "identity",
+        "messageTeamMembers"
+    ]
+}
